@@ -15,10 +15,10 @@ public class IndexController{
 	private static final String FTL_PATH = "/manage";
 	
 	
-	@RequestMapping(value = "/login",method = RequestMethod.GET)
-	public String login(){
-        return FTL_PATH + "/login";
-    }
+//	@RequestMapping(value = "/login",method = RequestMethod.GET)
+//	public String login(){
+//        return FTL_PATH + "/login";
+//    }
 	
 	@RequestMapping(value = "/login",method = RequestMethod.GET)
     public void get(HttpServletRequest request, HttpServletResponse response) throws IOException {
